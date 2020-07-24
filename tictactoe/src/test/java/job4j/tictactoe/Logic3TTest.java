@@ -2,6 +2,7 @@ package job4j.tictactoe;
 
 import org.junit.Ignore;
 import org.junit.Test;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -18,7 +19,6 @@ public class Logic3TTest {
         Logic3T login = new Logic3T(table);
         assertThat(login.isWinnerX(), is(true));
     }
-
 
     @Test
     public void whenNotFill() {
